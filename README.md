@@ -71,3 +71,7 @@ impl Family for TwoParamFamilyFamily {
 - Fitting lifetimes and const parameters into the system.
 - Generic constraints in type families (large sections of the code in `typefamilies-derive/src/lib.rs` are commented out due to a failed attempt at implementing generic constraints).
 - Somehow, relating monads with `Try` trait?
+
+## TODO
+
+- Allow speicifying order of generic parameters in `#[derive(Family)]`, this is useful for cases like `Result`, where having `T` (the success type) after `E` in its family types is preferable for implementing Monads.
