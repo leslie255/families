@@ -1,0 +1,13 @@
+[package]
+name = "typefamilies-derive"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "typefamilies_derive"
+proc-macro = true
+
+[dependencies]
+syn = { version = "*", features = ["full"] }
+quote = "*"
+proc-macro2 = "*"
