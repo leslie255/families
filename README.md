@@ -1,4 +1,4 @@
 # Families
 
-Rust HKT implemenations for playing around, with derive macro for automatically declaring/implementing type families.
+Rust HKT implementations for playing around, with derive macro for automatically declaring/implementing type families.
 
